@@ -1,0 +1,11 @@
+# Entrega VozClara
+- Vistas Leer, Biblioteca y Ajustes, responsive y accesibles con etiquetas de controles.
+- Web Speech API: voces reales del dispositivo, muestra, velocidad, tono, reproducción, pausa, reanudación, detener y oración anterior.
+- Resaltado por oración, lectura ampliable, contador de palabras y tiempo aproximado.
+- Importación TXT/MD, borrador automático, biblioteca local persistente, abrir/eliminar y exportación JSON.
+- Cuatro imágenes PNG originales, estética papel y biblioteca, copy rioplatense.
+- Build estático con rutas relativas y service worker; noindex. Sin backend necesario.
+- `npm run build`: OK. Tres pruebas Playwright: OK. Capturas revisadas a 390 y 1280 px, sin desborde horizontal.
+- La prueba de voz usa simulación; escuchar audio real y disponibilidad de voces requieren dispositivo con Web Speech API.
+- No se hizo git push ni publicación.
+- Verificación adicional del build: recarga sin conexión en Chromium con service worker activo; app y cuatro imágenes disponibles: OK.
